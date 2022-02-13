@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas CSS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redressed&family=Shizuru&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Redressed&family=Shizuru&display=swap" rel="stylesheet">
+	<style>
+		.header{
+			position: relative;
+			height: 200px;
+			width: 100%;
+		}
+		#role{
+			position: absolute;
+			color: gold;
+			left: 45%;
+			top:80%;
+			font-family: 'Redressed', cursive;
+		}
+		.satu{
+			position: relative;
+			height: 200px;
+			width: 100%;
+		}
+		.dua{
+			position: relative;
+			height: 200px;
+			width: 100%;
+		}
+		.tiga{
+			position: relative;
+			height: 200px;
+			width: 100%;
+			display: flex;
+		}
+		.komen{
+			position: relative;
+			height: 500px;
+			width: 100%;
+		}
+		#image{
+			width: 100%;
+			height: 400px;
+			position: absolute;
+		}
+		#judul{
+			text-align: center;
+			color: gold;
+			position: relative;
+			top: -50%;
+		}
+		#tombol{
+			position: absolute;
+			left: 45%;
+			width: 140px;
+			height: 20%;
+			background-color: gold;
+			color: darkblue;
+			border-radius: 15px;
+		}
+		#bio{
+			text-align: center;
+			width: 1200px;
+		}
+		#art{
+			text-align: center;
+			width: 400px;
+			padding: 20px;
+		}
+		#spasi{
+			text-align: center;
+			width: 250px;
+			padding: 10px;
+		}
+		#ar{
+			text-align: center;
+			width: 400px;
+			padding: 10px;
+		}
+		#em{
+
+			left: 35%;
+			width: 400px;
+			height: 30px;
+			vertical-align: center;
+			position: relative;
+		}
+		#kotak{
+			left: 35%;
+			width: 400px;
+			height: 30px;
+			vertical-align: center;
+			position: relative;
+		}
+		#pesan{
+			left: 35%;
+			width: 400px;
+			height: 30px;
+			vertical-align: center;
+			position: relative;
+		}
+		#isi{
+			left: 35%;
+			width: 400px;
+			height: 100px;
+			vertical-align: center;
+			position: relative;
+		}
+		#send{
+			left: 35%;
+			width: 410px;
+			height: 30px;
+			vertical-align: center;
+			position: absolute;
+			background-color: black;
+			color: white;
+			border-radius: 10px;
+		}
+		p{
+			font-family: 'Open Sans Condensed', sans-serif;
+		}
+		.footer{
+			position: relative;
+			text-align: center;
+			background-color: black;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<div class="header">
+	 <img id="image" src="pic.jpg">
+	 <h2 id="role">IT Enthusiast</h2>
+</div>
+<div class="satu">
+	<h1 id="judul">Muhamad Irfanul Hadi</h1>
+	<input id="tombol" type="button" name="Profile" value="Profile">
+</div>
+<div class="dua">
+	<section id="bio">
+		<h1>My Bio</h1>
+	<p>Halo perkenalkan nama saya Irvan. Saya lahir di Malang, 4 November 1995. Saya tertarik pada perkembangan teknologi informasi yang berfokus pada Web Development.</p>
+	</section>	
+</div>
+<div class="tiga">
+	<article id="art">
+		<h2>Admin Sparepart - PT Hartono Raya Motor Surabaya</h2>
+		<p> Saya bertugas untuk menginput sparepart yang dikirim dari vendor, stock opname sparepart serta mengirim sparepart yang diminta oleh kantor cabang.</p>
+	</article>
+	<article id="spasi"></article>
+	<article id="ar">
+		<h2>Staff IT Koperasi Central Artha Niaga Jawa Timur</h2>
+		<p>Saya bertugas maintenance hardware serta modifikasi kode program web supaya tetap berjalan sesuai SOP</p>
+	</article>
+</div>
+<div class="komen">
+	<h2 align="center">My Contact</h2>
+	<form>
+		<label id="em" >Email :</label><br>
+		<input id="kotak" type="text" name="" placeholder="Example@domain.com"><br>
+		<label id="pesan">Message :</label><br>
+		<textarea id="isi" placeholder="Message...."></textarea><br>	
+		<button id="send" type="submit">send</button>
+	</form>
+</div>
+<div class="footer">
+	<p>&copy;Eduwork 2022. All right reserved.</p>
+</div>
+</body>
+</html>
